@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\views\\gas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\views\\gas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\views\\imdb\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\views\\imdb\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\models\\bookingdestineationidviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\models\\bookingdestineationidviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\controllers\\gascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\controllers\\gascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\models\\bookinghotelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\models\\bookinghotelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\models\\gasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\models\\gasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|c:\\users\\mert\\source\\repos\\myakademirapidapiproject\\rapidapi.webui\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F3A7FBA-E624-4B34-AE76-FB6908802206}|RapidApi.WebUI\\RapidApi.WebUI.csproj|solutionrelative:rapidapi.webui\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,48 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GasController.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Controllers\\GasController.cs",
-              "RelativeDocumentMoniker": "RapidApi.WebUI\\Controllers\\GasController.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Controllers\\GasController.cs",
-              "RelativeToolTip": "RapidApi.WebUI\\Controllers\\GasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T15:18:50.723Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Views\\Gas\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidApi.WebUI\\Views\\Gas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Views\\Gas\\Index.cshtml",
-              "RelativeToolTip": "RapidApi.WebUI\\Views\\Gas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T15:24:52.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GasViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Models\\GasViewModel.cs",
-              "RelativeDocumentMoniker": "RapidApi.WebUI\\Models\\GasViewModel.cs",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Models\\GasViewModel.cs",
-              "RelativeToolTip": "RapidApi.WebUI\\Models\\GasViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T15:20:12.716Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -102,15 +62,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingHotelModel.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Models\\BookingHotelModel.cs",
+              "RelativeDocumentMoniker": "RapidApi.WebUI\\Models\\BookingHotelModel.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Models\\BookingHotelModel.cs",
+              "RelativeToolTip": "RapidApi.WebUI\\Models\\BookingHotelModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T20:19:51.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BookingDestineationIdViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Models\\BookingDestineationIdViewModel.cs",
+              "RelativeDocumentMoniker": "RapidApi.WebUI\\Models\\BookingDestineationIdViewModel.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Models\\BookingDestineationIdViewModel.cs",
+              "RelativeToolTip": "RapidApi.WebUI\\Models\\BookingDestineationIdViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T04:47:38.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Views\\Imdb\\Index.cshtml",
-              "RelativeDocumentMoniker": "RapidApi.WebUI\\Views\\Imdb\\Index.cshtml",
-              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Views\\Imdb\\Index.cshtml",
-              "RelativeToolTip": "RapidApi.WebUI\\Views\\Imdb\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "RapidApi.WebUI\\Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "RapidApi.WebUI\\Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACQAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T15:01:27.525Z",
+              "WhenOpened": "2025-03-02T14:42:53.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "RapidApi.WebUI\\Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\MERT\\source\\repos\\MyAkademiRapidApiProject\\RapidApi.WebUI\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "RapidApi.WebUI\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwE4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T14:17:04.065Z",
               "EditorCaption": ""
             }
           ]

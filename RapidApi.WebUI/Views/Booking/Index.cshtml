@@ -1,0 +1,55 @@
+﻿@model BookingHotelModel.Rootobject
+<h2 class="text-2xl font-bold mb-4">Otel Arama</h2>
+
+<form method="post" asp-action="Search" asp-controller="Booking" class="space-y-4 bg-gray-100 p-4 rounded-lg shadow">
+    <div>
+        <label for="cityName" class="block font-semibold">Şehir Adı:</label>
+        <input type="text" id="cityName" name="cityName" required class="w-full p-2 border rounded" />
+    </div>
+    <div>
+        <label for="checkInDate" class="block font-semibold">Giriş Tarihi:</label>
+        <input type="date" id="checkInDate" name="checkInDate" required class="w-full p-2 border rounded" />
+    </div>
+    <div>
+        <label for="checkOutDate" class="block font-semibold">Çıkış Tarihi:</label>
+        <input type="date" id="checkOutDate" name="checkOutDate" required class="w-full p-2 border rounded" />
+    </div>
+    <div>
+        <label for="roomQty" class="block font-semibold">Oda Sayısı:</label>
+        <input type="number" id="roomQty" name="roomQty" value="1" required class="w-full p-2 border rounded" />
+    </div>
+    <div>
+        <label for="adults" class="block font-semibold">Yetişkin Sayısı:</label>
+        <input type="number" id="adults" name="adults" value="2" required class="w-full p-2 border rounded" />
+    </div>
+    <div>
+        <label for="childrenAge" class="block font-semibold">Çocuk Yaşı:</label>
+        <input type="text" id="childrenAge" name="childrenAge" class="w-full p-2 border rounded" />
+    </div>
+    <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Ara</button>
+</form>
+
+<h3 class="text-xl font-bold mt-6">Bulunan Oteller</h3>
+
+@if (Model.data != null && Model.data.hotels.Any())
+{
+    <div class="row mt-4">
+        @foreach (var hotel in Model.data.hotels)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-lg">
+                    <img src="@hotel.property.photoUrls.FirstOrDefault()" class="card-img-top" alt="@hotel.property.name">
+                    <div class="card-body">
+                        <h5 class="card-title">@hotel.property.name</h5>
+                        <p class="card-text font-weight-bold">Fiyat: @hotel.property.priceBreakdown.grossPrice.currency @string.Format("{0:0}", hotel.property.priceBreakdown.grossPrice.value)</p>
+                        <p class="card-text text-warning">Puan: @hotel.property.reviewScore</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p class="text-danger mt-4">Oteller bulunamadı.</p>
+}

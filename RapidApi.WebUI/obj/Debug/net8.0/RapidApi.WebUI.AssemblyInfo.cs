@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RapidApi.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e30563f9112071e3c678c860a00ec02fd9275b9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+369fa418057f6e69c39fb02421b13b0435953ff4")]
 [assembly: System.Reflection.AssemblyProductAttribute("RapidApi.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RapidApi.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
